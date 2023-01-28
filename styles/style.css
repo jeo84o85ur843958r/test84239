@@ -287,13 +287,29 @@ a:hover{
 
 /* BREAKPOINTS */
 @media (max-width: 992px){
+    .pad-box{
+        padding: 5px;
+    }
+
+    .hero{
+        margin-bottom: 5px;
+    }
+
+    .j-notice{
+        margin-top: 5px;
+    }
+
     .c-2nd{
         margin-left: 0px !important;
         aspect-ratio: 2/1 !important;
     }
 
     .c-2nd-margin{
-        margin-bottom: 35px;
+        margin-bottom: 5px;
+    }
+
+    .row2{
+        margin-top: 5px;
     }
 
     .row2 .post-title{
