@@ -297,6 +297,7 @@ a:hover{
 
     .j-notice{
         margin-top: 5px;
+        padding: 30px;
     }
 
     .c-2nd{
@@ -313,7 +314,7 @@ a:hover{
     }
 
     .row2 .post-title{
-        font-size: 5dvw;
+        font-size: 10dvw;
     }
 
     .row2 .post-volanta{
@@ -325,21 +326,56 @@ a:hover{
     }
 
     .card1 .post-title{
-        font-size: 5dvw !important;
+        font-size: 7dvw !important;
+        padding: 5px;
+        backdrop-filter: blur;
     }
 
     .card1 .post-volanta{
-        font-size: 2dvw !important;
+        font-size: 3.5dvw !important;
+    }
+
+    .card1:after {
+        z-index: 1;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        opacity: 0.6;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1200px){
 
-    .row2 .post-title{
-        font-size: 7dvw;
+    .pad-box{
+        padding: 5px;
     }
 
-    .row2 .post-volanta{
-        /*display: none;*/
+    .hero{
+        margin-bottom: 5px;
+    }
+    
+    .j-notice{
+        margin-top: 5px;
+        padding: 30px;
+    }
+
+    .card1{
+        aspect-ratio: 1/1;
+    }
+
+    .c-2nd{
+        margin-left: 5px;
+    }
+
+    .c-2nd-margin{
+        margin-bottom: 5px;
+    }
+
+    .row2{
+        margin-top: 5px;
     }
 }
