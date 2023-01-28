@@ -52,6 +52,7 @@ a:hover{
     background-color: black;
     padding: 60px;
     height: 70vh;
+    min-height: 400px;
     max-width: 100%;
     margin-bottom: 35px;
     text-align: center;
